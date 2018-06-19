@@ -1,0 +1,379 @@
+<!doctype html>
+    <html class="no-js" lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HDREZKA - онлайн кинотеатр</title>
+    <link rel="shortcut icon" href="newImages/hdlogo32px.png" type="images">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="banner" role="banner">
+        <header id="header">
+            <div class="header-content clearfix">
+                    <ul id="growing-search-freebie">
+                    <li>
+                        <div class="growing-search">
+                            <div class="input">
+                                    <input type="search" name="search"/>
+                                </div><div class="submit">
+                                <button type="submit" name="go_search">
+                                    <span class="fa fa-search"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <nav class="navigation" role="navigation">
+                    <ul class="primary-nav">
+                        <li><a href="#features">фильмы</a></li>
+                        <li><a href="#features">сериалы</a></li>
+                        <li><a href="#features">Мультфильмы</a></li>
+                        <li><a href="#">контакты</a></li>
+                        <li><a href="#">вход</a></li>
+                        <li><a href="#">регистрация</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="nav-toggle">Menu<span></span></a>
+            </div><!-- header content -->
+        </header><!-- header -->
+
+
+                <!-- <script type="text/javascript">
+                    function power(base, exponent){
+                        if (exponent == 0) {
+                            return 1;
+                        }else {
+                            return base * power(base, exponent - 1);
+                        }
+                    }
+                    console.log(power(2,3));
+
+
+
+
+                    var msg=new String();
+         var wordArr=new Array();
+         var minNumber=new String();
+         minString="";
+         msg=window.prompt("Введите строку");
+         minString=msg.substring(msg.lastIndexOf(" "));
+         wordArr=msg.split(" ");
+         for (var i=0 in wordArr)
+           {
+             if (wordArr[i].length<minString.length)
+               {
+                  minString=wordArr[i];
+               }
+           }
+          window.alert("Самое короткое слово: "+minString);
+
+
+
+
+
+
+                </script> -->
+        <div class="container">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="banner-text text-center">
+                    <h1>HDREZKA.AG</h1>
+                    <br>
+                    <br>
+                    <p>Смотреть фильмы в HD онлайн</p>
+                    <a href="#" class="btn btn-large">Регистрация</a>
+                </div><!-- banner text -->
+            </div>
+        </div>
+    </section><!-- banner -->
+
+    <section>
+    <div class="selectSystem">
+            <h3>Поиск фильмов по параметрам</h3>
+        <select class="leftCol1">
+            <option value="someselect">Выбирите жанр</option>
+            <option value="someselect">Комедии</option>
+            <option value="someselect">Драмы</option>
+            <option value="someselect">Фантастика</option>
+        </select>
+        <select class="rightCol1">
+            <option value="someselect">Жанры исключаемые из списка</option>
+            <option value="someselect">Драмы</option>
+            <option value="someselect">Комедии</option>
+            <option value="someselect">Фантастика</option>
+        </select>
+            <br>
+        <select class="leftCol2">
+            <option value="someselect">Выбирите страну</option>
+            <option value="someselect">США</option>
+            <option value="someselect">Франция</option>
+            <option value="someselect">Норвегия</option>
+        </select>
+        <select class="rightCol2">
+            <option value="someselect">Страны исключаемые из списка</option>
+            <option value="someselect">США</option>
+            <option value="someselect">Франция</option>
+            <option value="someselect">Норвегия</option>
+        </select>
+            <h4>Годы создания</h4>
+            <input class="selectSystem_date" type="text" name="" placeholder="от">
+            <input class="selectSystem_date" type="text" name="" placeholder="до">
+<!--         <select class="selectDate">
+            <option value="someselect">1967</option>
+            <option value="someselect">1968</option>
+            <option value="someselect">1969</option>
+            <option value="someselect">1970</option>
+            <option value="someselect">1971</option>
+            <option value="someselect">1972</option>
+            <option value="someselect">1973</option>
+            <option value="someselect">1974</option>
+            <option value="someselect">1975</option>
+            <option value="someselect">1976</option>
+            <option value="someselect">1977</option>
+            <option value="someselect">1978</option>
+            <option value="someselect">1979</option>
+            <option value="someselect">1980</option>
+        </select>
+        <select class="selectDate">
+            <option value="someselect">2018</option>
+            <option value="someselect">2017</option>
+            <option value="someselect">2016</option>
+            <option value="someselect">2015</option>
+            <option value="someselect">2014</option>
+            <option value="someselect">2013</option>
+            <option value="someselect">2012</option>
+            <option value="someselect">2011</option>
+            <option value="someselect">2010</option>
+            <option value="someselect">2009</option>
+            <option value="someselect">2008</option>
+            <option value="someselect">2007</option>
+            <option value="someselect">2006</option>
+            <option value="someselect">2005</option>
+            <option value="someselect">2004</option>
+            <option value="someselect">2003</option>
+            <option value="someselect">2002</option>
+            <option value="someselect">2001</option>
+            <option value="someselect">2000</option>
+        </select> -->
+         <br>
+         <a href="#features" class="btnSearch btn btn-large">Поиск</a>
+    </div>
+    </section> <!-- select system -->
+
+    <section id="features" class="features section">
+        <div class="container">
+
+            <div id="usescol">
+                <div class="row">
+                    <div  class="feature text-center">
+                        <a href="#" class="feature-block">
+                            <img class="feature-posters" src="posters/1.jpg" width="170" height="270">
+                            <div class="feature-content">
+                                <h5>Последний взмах флага</h5>
+                                <p>2017, США, Драмы</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div  class="feature text-center">
+                        <a href="#" class="feature-block">
+                            <img  class="feature-posters" src="posters/2.jpg" width=170" height="270">
+                            <div class="feature-content">
+                                <h5>Звёздные войны эпизод VIII</h5>
+                                <p>2017, США, Фантастика</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div  class="feature text-center">
+                        <a href="#" class="feature-block">
+                            <img class="feature-posters" src="posters/3.jpg" width="170" height="270">
+                            <div class="feature-content">
+                                <h5>Эспен в королевстве тролей</h5>
+                                <p>2017, Норвегия, Приключения</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div  class="feature text-center">
+                        <a href="#" class="feature-block">
+                            <img class="feature-posters" src="posters/4.jpg" width="170" height="270">
+                            <div class="feature-content">
+                                <h5>Рождество по соседству</h5>
+                                <p>2017, США, Семейные</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div  class="feature text-center">
+                        <a href="#" class="feature-block">
+                            <img class="feature-posters" src="posters/5.jpeg" width="170" height="270">
+                            <div class="feature-content">
+                                <h5>Город призраков</h5>
+                                <p>2017, США, Документальные</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div  class="feature text-center">
+                        <a href="#" class="feature-block">
+                            <img class="feature-posters" src="posters/6.jpg" width="170" height="270">
+                            <div class="feature-content">
+                                <h5>Гангстердам</h5>
+                                <p>2018, Франция, Комедия</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div  class="feature text-center">
+                        <a href="#" class="feature-block">
+                            <img class="feature-posters" src="posters/7.jpg" width="170" height="270">
+                            <div class="feature-content">
+                                <h5>Тельма</h5>
+                                <p>2017, Норвегия, Драма</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div  class="feature text-center">
+                        <a href="#" class="feature-block">
+                            <img class="feature-posters" src="posters/8.jpg" width="170" height="270">
+                            <div class="feature-content">
+                                <h5>Выходя</h5>
+                                <p>2017, США, Приключения</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div  class="feature text-center">
+                        <a href="#" class="feature-block">
+                            <img class="feature-posters" src="posters/9.jpg" width="170" height="270">
+                            <div class="feature-content">
+                                <h5>Кошмар в доме мечты</h5>
+                                <p>2017, США, Трыллеры</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div  class="feature text-center">
+                        <a href="#" class="feature-block">
+                            <img class="feature-posters" src="posters/10.jpg" width="170" height="270">
+                            <div class="feature-content">
+                                <h5>Свингеры</h5>
+                                <p>2017, Дания, Мелодрамы</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div  class="feature text-center">
+                        <a href="#" class="feature-block">
+                            <img class="feature-posters" src="posters/11.jpg" width="170" height="270">
+                            <div class="feature-content">
+                                <h5>Самый сильный курьер</h5>
+                                <p>2017, Южнaя Корея, Драмы</p>
+                            </div>
+                        </a>
+                        </div>
+                    <div  class="feature text-center">
+                        <a href="#" class="feature-block">
+                            <img class="feature-posters" src="posters/12.jpg" width="170" height="270">
+                            <div class="feature-content">
+                                <h5>Ян Масарик</h5>
+                                <p>2016, Чехия, Исторический</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- features -->
+
+    <section id="testimonials" class="section testimonials no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <div class="col-md-6">
+                                <div class="avatar">
+                                    <img src="posters/postleft.jpg" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="facts">Интересные Факты:</div>
+                                <blockquote>
+                                    <p>Фильм базируется на биографии Луи Зампирини, спортсмена, бегуна на длинные дистанции, который в годы Второй мировой войны прошел через страшные жертва японских лагирей для военнопленных.
+                                    </p>
+                                    <p>Реальный прототип главного героя прожил долгую дизнь, 97 лет, и умер в 2014 году.
+                                    </p>
+                                    <p>Мияви так сильно преживал во время сцен пыток и принимал так все близко к серцу, что во время эпизода, где Замприни пытают светом, ему сначало стало плохо, а затем его буквально вырвало на сьемочной площатке.
+                                    </p>
+                                </blockquote>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!-- flexslider -->
+            </div>
+        </div>
+    </section><!-- testimonials -->
+
+    <section id="support" class="section support">
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h3>Поддержи проект</h3>
+                <p>Мы обещаем радовть тебя новинками</p>
+                 <a href="#" class="btnSearch btn btn-large">Пожертвовать</a>
+            </div>
+        </div>
+    </section><!-- support -->
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-2">
+                        <a class="footerleft" href="#">Поддержка</a>
+                    </div>
+                    <div class="footer-col col-md-2">
+                        <a class="footerleft" href="#">Правообладателям</a>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <ul class="footer-share">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h5>HDREZKA - мы лучшие в мире бесплатных онлайн фильмов и сериалов в хорошем HD качестве!</h5>
+                    </div>
+                </div>
+            </div>
+        </div><!-- footer top -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="col-md-12">
+                    <p>Copyright © 2018. All Rights Reserved<br>Made by JAN KATO</p>
+                </div>
+            </div>
+        </div>
+    </footer><!-- footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/retina.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-XXXX-X');
+        ga('send', 'pageview');
+    </script>
+</body>
+</html>
